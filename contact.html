@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Connect with a Travel Agent</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo"><img src="images/taniti logo.png" alt="Taniti Tourism Logo"></a>
+            <ul class="nav-links">
+                <li><a href="lodging.html">Lodging</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+                <li><a href="travelinfo.html">Travel Info</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <div class="form-container">
+        <h1>Connect with a Travel Agent Today</h1>
+        <form action="/submit">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" name="phone" placeholder="000-000-0000" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" placeholder="Write comments here" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <div class="left-side-footer">
+            <a href="index.html" class="logo"><img src="images/taniti logo.png" alt="Taniti Tourism Logo"></a>
+        </div>
+        <div class="right-side-footer">
+            <div class="address">
+                <p>Taniti Department of Tourism</p>
+                <p>123 Yellow Leaf Ln</p>
+                <p>Taniti City, Taniti</p>
+                <p>+0 123-456-7890</p>
+            </div>
+            <div class="travel-agency">
+                <p>To contact a travel agent:</p>
+                <button><a href="contact.html">Connect</a></button>
+            </div>
+        </div>
+    </footer>
+    <script src="functionality.js"></script>
+</body>
+</html>
