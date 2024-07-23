@@ -211,7 +211,7 @@ h2 {
     height: auto;
 }
 
-footer {
+.footer {
     border-top: 3px solid #f0f0f0;
     padding: 20px;
     display: flex;
@@ -285,11 +285,6 @@ button {
     margin: 20px;
     padding: 10px;
     text-align: center;
-    transition: transition 0.5s;
-}
-
-.lodging-card:hover {
-    transform: scale(1.05);
 }
 
 .lodging-card img, .entertainment-card img {
@@ -551,6 +546,11 @@ input[type="submit"]{
 input[type="submit"]:hover {
     background-color: #f0f0f0;
     color: #3898ec;
+}
+
+.source {
+    text-align: center;
+    font-size: 10pt;
 }
 
 
